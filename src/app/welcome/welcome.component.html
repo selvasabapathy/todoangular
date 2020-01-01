@@ -7,5 +7,13 @@
     </div>
     
     Visit <a routerLink="/todos">Todo List</a> to manage your todos
-    
+
+</div>
+
+<div class="container">
+    Click to get <button class="btn btn-success" (click)='getWelcomeMessageWithPathVariable()'>Welcome message</button>
+</div>
+
+<div class="container">
+    Your customized message is {{welcomeMessageFromService}}
 </div>
